@@ -2,9 +2,8 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div className="container-fluid">
-                <span className="badge text-bg-secondary fs-2" href="#">
-                    NewsTrail
-                </span>
+                <a className="navbar-brand" href="#"><span className="badge bg-light text-dark fs-4">News Trail</span>
+                </a>
                 <button
                     className="navbar-toggler"
                     type="button"
